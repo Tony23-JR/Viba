@@ -1,0 +1,81 @@
+.box {
+  width: 200px;
+  height: 250px;
+  float: left;
+  margin: 20px;
+}
+
+.dashed {
+  border: 3px dashed black;
+  padding: 5px;
+}
+
+.zebra {
+  border: 5px dashed black;
+}
+
+.grande {
+  font-size: 30px;
+}
+
+.margen-superior {
+  display: block;
+  margin-top: 45px;
+}
+
+.resaltado {
+  border-bottom: 2px solid brown;
+}
+
+#caja {
+  width: 250px;
+  height: 250px;
+  border: 2px solid black;
+  background: yellow;
+  transition: 300ms all;
+}
+/*
+#caja:hover{
+    background: red;
+    cursor: pointer;
+}
+*/
+
+input {
+  padding: 10px;
+  width: 300px;
+  font-size: 20px;
+}
+
+#datos {
+  border: 4px dashed black;
+  padding: 10px;
+  width: 250px;
+  height: 50px;
+  margin-top: 10px;
+  display: none;
+}
+
+#sigueme {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  display: block;
+  background: yellow;
+  opacity: 0.5;
+  border: 3px solid black;
+  border-radius: 999px;
+}
+
+.cajita {
+  width: 500px;
+  height: 50px;
+  border: 5px dashed black;
+  background: #ccc;
+  text-align: center;
+  line-height: 50px;
+  color: black;
+  font-size: 19px;
+  font-family: Verdana;
+  margin-top: 15px;
+}
